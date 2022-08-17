@@ -12,4 +12,4 @@ curl -O https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.82/bin/apache-tomcat-8.5.8
 tar -xvf apache-tomcat-8.5.82.tar.gz -C /opt/
 mv /opt/apache-tomcat-8.5.82 /opt/tomcat
 sudo chmod 777 -R /opt/tomcat/bin
-./opt/tomcat/bin/catalina.sh start 
+sudo bash /opt/tomcat/bin/catalina.sh start 
