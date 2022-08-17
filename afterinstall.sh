@@ -1,1 +1,1 @@
-
+echo "Deploy is completed"
