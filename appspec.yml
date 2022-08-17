@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /student.war
-    destination: /var/lib/tomcat9/webapps/
+    destination: /var/lib/tomcat8/webapps/
 hooks:
   BeforeInstall:
     - location: dependencies.sh
