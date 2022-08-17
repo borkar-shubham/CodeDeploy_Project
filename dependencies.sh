@@ -9,6 +9,6 @@ sudo apt install default-jre default-jdk -y
 # sudo apt install ./libtomcat8-java_8.5.30-1ubuntu1_all.deb ./tomcat8_8.5.30-1ubuntu1_all.deb ./tomcat8-common_8.5.30-1ubuntu1_all.deb -y
 
 curl -O https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.82/bin/apache-tomcat-8.5.82.tar.gz
-tar -xvfz apache-tomcat-8.5.82.tar.gz -C /opt/
+tar -xvf apache-tomcat-8.5.82.tar.gz -C /opt/
 mv /opt/apache-tomcat-8.5.82 /opt/tomcat
 ./opt/tomcat/bin/catalina.sh start 
