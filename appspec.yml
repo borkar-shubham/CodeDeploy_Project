@@ -4,6 +4,9 @@ files:
   - source: /student.war
     destination: /var/lib/tomcat9/webapps/
 hooks:
+  BeforeInstall:
+    - location: dependencies.sh
+      timeout: 100
   AfterInstall:
     - location: afterinstall.sh
       timeout: 100
